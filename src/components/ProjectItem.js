@@ -1,6 +1,7 @@
 import React from "react";
 
 function ProjectItem({ name, about, technologies }) {
+  console.log('technologies', technologies)
   return (
     <div className="project-item">
       <h3>{name}</h3>
